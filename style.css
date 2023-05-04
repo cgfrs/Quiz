@@ -1,0 +1,41 @@
+#quiz {
+    font-family: Arial, sans-serif;
+  }
+  
+  .pergunta {
+    margin-bottom: 20px;
+  }
+  
+  .pergunta h2 {
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+  .pergunta p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .opcoes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .resposta {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resposta:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .resposta.selecionada {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
